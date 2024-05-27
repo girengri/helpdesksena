@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Soporte Técnico / Help Desk</title>
+    <link rel="stylesheet" href="css/helpdesk_client.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Soporte Técnico / Help Desk</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Lista de clientes</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Empleados</a></li>
+                <li><a href="#">Departamentos</a></li>
+                <li><a href="#">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Lista de clientes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Contacto</th>
+                        <th>Dirección</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Brass, Luis</td>
+                        <td>N</td>
+                        <td>545555, nueva york</td>
+                        <td><a href="mailto:luis@gmail.com">luis@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Caja, Javier</td>
+                        <td>1234567</td>
+                        <td>junin</td>
+                        <td><a href="mailto:javier@gmail.com">javier@gmail.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Showing 1 to 2 of 2 entries</p>
+            <div class="pagination">
+                <a href="#" class="prev">Previous</a>
+                <a href="#" class="next">Next</a>
+            </div>
+            <input type="search" placeholder="Search:" />
+        </section>
+        <aside>
+            <button>+ Agregar Nuevo</button>
+        </aside>
+    </main>
+</body>
+</html>
